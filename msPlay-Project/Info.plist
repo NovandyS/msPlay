@@ -21,5 +21,18 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>CircularStd-Black.otf</string>
+		<string>CircularStd-BlackItalic.otf</string>
+		<string>CircularStd-Bold.otf</string>
+		<string>CircularStd-BoldItalic.otf</string>
+		<string>CircularStd-Book.otf</string>
+		<string>CircularStd-BookItalic.otf</string>
+		<string>CircularStd-Light Italic.otf</string>
+		<string>CircularStd-Light.otf</string>
+		<string>CircularStd-Medium.otf</string>
+		<string>CircularStd-MediumItalic.otf</string>
+	</array>
 </dict>
 </plist>
