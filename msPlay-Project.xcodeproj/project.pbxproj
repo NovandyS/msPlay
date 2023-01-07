@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0216F0D3296827B20020BE11 /* BrowseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216F0D2296827B20020BE11 /* BrowseTableViewCell.swift */; };
+		0216F0D9296831630020BE11 /* Mercury Calling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0D4296831620020BE11 /* Mercury Calling.mp3 */; };
+		0216F0DA296831630020BE11 /* Heart Of Iron.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0D5296831620020BE11 /* Heart Of Iron.mp3 */; };
+		0216F0DB296831630020BE11 /* Chrono Navi Jingle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0D6296831630020BE11 /* Chrono Navi Jingle.mp3 */; };
+		0216F0DC296831630020BE11 /* Narwhal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0D7296831630020BE11 /* Narwhal.mp3 */; };
+		0216F0DD296831630020BE11 /* Oracle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0D8296831630020BE11 /* Oracle.mp3 */; };
+		0216F0E9296880490020BE11 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216F0E8296880490020BE11 /* MusicPlayerViewController.swift */; };
+		0216F0EF29689AC50020BE11 /* TWICE - Feel Special.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0EA29689AC40020BE11 /* TWICE - Feel Special.mp3 */; };
+		0216F0F029689AC50020BE11 /* iKON - Love Scenario.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0EB29689AC40020BE11 /* iKON - Love Scenario.mp3 */; };
+		0216F0F129689AC50020BE11 /* Red Velvet - Psycho.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0EC29689AC40020BE11 /* Red Velvet - Psycho.mp3 */; };
+		0216F0F229689AC50020BE11 /* Agust D – Daechwita.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0ED29689AC40020BE11 /* Agust D – Daechwita.mp3 */; };
+		0216F0F329689AC50020BE11 /* NewJeans - Hype Boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0EE29689AC50020BE11 /* NewJeans - Hype Boy.mp3 */; };
 		0243B5102940954D002754D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243B50F2940954D002754D5 /* AppDelegate.swift */; };
 		0243B5122940954D002754D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243B5112940954D002754D5 /* SceneDelegate.swift */; };
 		0243B5142940954D002754D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243B5132940954D002754D5 /* HomeViewController.swift */; };
@@ -23,12 +35,31 @@
 		02696381295C2C5A00194395 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02696377295C2C5900194395 /* CircularStd-Book.otf */; };
 		02696382295C2C5A00194395 /* CircularStd-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02696378295C2C5900194395 /* CircularStd-BlackItalic.otf */; };
 		02696383295C2C5A00194395 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02696379295C2C5900194395 /* CircularStd-Black.otf */; };
+		02D86DAC296749FC000B20B8 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D86DAB296749FC000B20B8 /* Songs.swift */; };
+		02D86DC82967FF57000B20B8 /* Taylor Swift - Love Story.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D86DAD2967FF57000B20B8 /* Taylor Swift - Love Story.mp3 */; };
+		02D86DC92967FF57000B20B8 /* Adam Levine - Lost Stars.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D86DAE2967FF57000B20B8 /* Adam Levine - Lost Stars.mp3 */; };
+		02D86DCC2967FF57000B20B8 /* Jason Derulo - Marry Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D86DB12967FF57000B20B8 /* Jason Derulo - Marry Me.mp3 */; };
+		02D86DDB2967FF57000B20B8 /* Bruno Mars - Grenade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D86DC02967FF57000B20B8 /* Bruno Mars - Grenade.mp3 */; };
+		02D86DE02967FF57000B20B8 /* Sia - Chandelier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D86DC52967FF57000B20B8 /* Sia - Chandelier.mp3 */; };
+		02D86DE429682235000B20B8 /* Playlists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D86DE329682235000B20B8 /* Playlists.swift */; };
 		02EE5EE9295C7C36008707B8 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE5EE8295C7C35008707B8 /* BrowseViewController.swift */; };
 		02EE5EEB295C7C4A008707B8 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE5EEA295C7C4A008707B8 /* PlaylistViewController.swift */; };
 		02EE5EED295C7C5E008707B8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE5EEC295C7C5E008707B8 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0216F0D2296827B20020BE11 /* BrowseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseTableViewCell.swift; sourceTree = "<group>"; };
+		0216F0D4296831620020BE11 /* Mercury Calling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mercury Calling.mp3"; sourceTree = "<group>"; };
+		0216F0D5296831620020BE11 /* Heart Of Iron.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Heart Of Iron.mp3"; sourceTree = "<group>"; };
+		0216F0D6296831630020BE11 /* Chrono Navi Jingle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chrono Navi Jingle.mp3"; sourceTree = "<group>"; };
+		0216F0D7296831630020BE11 /* Narwhal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Narwhal.mp3; sourceTree = "<group>"; };
+		0216F0D8296831630020BE11 /* Oracle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Oracle.mp3; sourceTree = "<group>"; };
+		0216F0E8296880490020BE11 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		0216F0EA29689AC40020BE11 /* TWICE - Feel Special.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TWICE - Feel Special.mp3"; sourceTree = "<group>"; };
+		0216F0EB29689AC40020BE11 /* iKON - Love Scenario.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "iKON - Love Scenario.mp3"; sourceTree = "<group>"; };
+		0216F0EC29689AC40020BE11 /* Red Velvet - Psycho.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Red Velvet - Psycho.mp3"; sourceTree = "<group>"; };
+		0216F0ED29689AC40020BE11 /* Agust D – Daechwita.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Agust D – Daechwita.mp3"; sourceTree = "<group>"; };
+		0216F0EE29689AC50020BE11 /* NewJeans - Hype Boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "NewJeans - Hype Boy.mp3"; sourceTree = "<group>"; };
 		0243B50C2940954D002754D5 /* msPlay-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "msPlay-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0243B50F2940954D002754D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0243B5112940954D002754D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +78,13 @@
 		02696377295C2C5900194395 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
 		02696378295C2C5900194395 /* CircularStd-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-BlackItalic.otf"; sourceTree = "<group>"; };
 		02696379295C2C5900194395 /* CircularStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.otf"; sourceTree = "<group>"; };
+		02D86DAB296749FC000B20B8 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		02D86DAD2967FF57000B20B8 /* Taylor Swift - Love Story.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Taylor Swift - Love Story.mp3"; path = "../../../../../../../Downloads/Songs/Taylor Swift - Love Story.mp3"; sourceTree = "<group>"; };
+		02D86DAE2967FF57000B20B8 /* Adam Levine - Lost Stars.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Adam Levine - Lost Stars.mp3"; path = "../../../../../../../Downloads/Songs/Adam Levine - Lost Stars.mp3"; sourceTree = "<group>"; };
+		02D86DB12967FF57000B20B8 /* Jason Derulo - Marry Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Jason Derulo - Marry Me.mp3"; path = "../../../../../../../Downloads/Songs/Jason Derulo - Marry Me.mp3"; sourceTree = "<group>"; };
+		02D86DC02967FF57000B20B8 /* Bruno Mars - Grenade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Bruno Mars - Grenade.mp3"; path = "../../../../../../../Downloads/Songs/Bruno Mars - Grenade.mp3"; sourceTree = "<group>"; };
+		02D86DC52967FF57000B20B8 /* Sia - Chandelier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Sia - Chandelier.mp3"; path = "../../../../../../../Downloads/Songs/Sia - Chandelier.mp3"; sourceTree = "<group>"; };
+		02D86DE329682235000B20B8 /* Playlists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlists.swift; sourceTree = "<group>"; };
 		02EE5EE8295C7C35008707B8 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
 		02EE5EEA295C7C4A008707B8 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		02EE5EEC295C7C5E008707B8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +101,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0219230B296739380016961B /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				0216F0ED29689AC40020BE11 /* Agust D – Daechwita.mp3 */,
+				0216F0EB29689AC40020BE11 /* iKON - Love Scenario.mp3 */,
+				0216F0EE29689AC50020BE11 /* NewJeans - Hype Boy.mp3 */,
+				0216F0EC29689AC40020BE11 /* Red Velvet - Psycho.mp3 */,
+				0216F0EA29689AC40020BE11 /* TWICE - Feel Special.mp3 */,
+				0216F0D6296831630020BE11 /* Chrono Navi Jingle.mp3 */,
+				0216F0D5296831620020BE11 /* Heart Of Iron.mp3 */,
+				0216F0D4296831620020BE11 /* Mercury Calling.mp3 */,
+				0216F0D7296831630020BE11 /* Narwhal.mp3 */,
+				0216F0D8296831630020BE11 /* Oracle.mp3 */,
+				02D86DAE2967FF57000B20B8 /* Adam Levine - Lost Stars.mp3 */,
+				02D86DC02967FF57000B20B8 /* Bruno Mars - Grenade.mp3 */,
+				02D86DB12967FF57000B20B8 /* Jason Derulo - Marry Me.mp3 */,
+				02D86DC52967FF57000B20B8 /* Sia - Chandelier.mp3 */,
+				02D86DAD2967FF57000B20B8 /* Taylor Swift - Love Story.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
 		0243B5032940954D002754D5 = {
 			isa = PBXGroup;
 			children = (
@@ -82,17 +142,22 @@
 		0243B50E2940954D002754D5 /* msPlay-Project */ = {
 			isa = PBXGroup;
 			children = (
+				0219230B296739380016961B /* Songs */,
 				0243B50F2940954D002754D5 /* AppDelegate.swift */,
 				0243B5112940954D002754D5 /* SceneDelegate.swift */,
 				0243B5132940954D002754D5 /* HomeViewController.swift */,
 				02EE5EE8295C7C35008707B8 /* BrowseViewController.swift */,
 				02EE5EEA295C7C4A008707B8 /* PlaylistViewController.swift */,
 				02EE5EEC295C7C5E008707B8 /* ProfileViewController.swift */,
+				0216F0E8296880490020BE11 /* MusicPlayerViewController.swift */,
+				02D86DAB296749FC000B20B8 /* Songs.swift */,
+				02D86DE329682235000B20B8 /* Playlists.swift */,
 				0243B5152940954D002754D5 /* Main.storyboard */,
 				0243B5182940954E002754D5 /* Assets.xcassets */,
 				0243B51A2940954E002754D5 /* LaunchScreen.storyboard */,
 				0243B51D2940954E002754D5 /* Info.plist */,
 				0269636F295C2BFE00194395 /* Resources */,
+				0216F0D2296827B20020BE11 /* BrowseTableViewCell.swift */,
 			);
 			path = "msPlay-Project";
 			sourceTree = "<group>";
@@ -173,17 +238,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				0269637B295C2C5A00194395 /* CircularStd-Medium.otf in Resources */,
+				0216F0F329689AC50020BE11 /* NewJeans - Hype Boy.mp3 in Resources */,
+				0216F0F229689AC50020BE11 /* Agust D – Daechwita.mp3 in Resources */,
 				0269637E295C2C5A00194395 /* CircularStd-Bold.otf in Resources */,
+				0216F0D9296831630020BE11 /* Mercury Calling.mp3 in Resources */,
+				0216F0F029689AC50020BE11 /* iKON - Love Scenario.mp3 in Resources */,
 				02696381295C2C5A00194395 /* CircularStd-Book.otf in Resources */,
+				0216F0DD296831630020BE11 /* Oracle.mp3 in Resources */,
 				0243B51C2940954E002754D5 /* LaunchScreen.storyboard in Resources */,
 				02696380295C2C5A00194395 /* CircularStd-Light.otf in Resources */,
+				02D86DC92967FF57000B20B8 /* Adam Levine - Lost Stars.mp3 in Resources */,
+				02D86DC82967FF57000B20B8 /* Taylor Swift - Love Story.mp3 in Resources */,
+				0216F0DA296831630020BE11 /* Heart Of Iron.mp3 in Resources */,
 				0243B5192940954E002754D5 /* Assets.xcassets in Resources */,
 				0269637D295C2C5A00194395 /* CircularStd-MediumItalic.otf in Resources */,
+				02D86DDB2967FF57000B20B8 /* Bruno Mars - Grenade.mp3 in Resources */,
+				02D86DCC2967FF57000B20B8 /* Jason Derulo - Marry Me.mp3 in Resources */,
 				0243B5172940954D002754D5 /* Main.storyboard in Resources */,
 				02696383295C2C5A00194395 /* CircularStd-Black.otf in Resources */,
 				0269637C295C2C5A00194395 /* CircularStd-Light Italic.otf in Resources */,
+				02D86DE02967FF57000B20B8 /* Sia - Chandelier.mp3 in Resources */,
 				0269637F295C2C5A00194395 /* CircularStd-BoldItalic.otf in Resources */,
 				02696382295C2C5A00194395 /* CircularStd-BlackItalic.otf in Resources */,
+				0216F0EF29689AC50020BE11 /* TWICE - Feel Special.mp3 in Resources */,
+				0216F0DB296831630020BE11 /* Chrono Navi Jingle.mp3 in Resources */,
+				0216F0F129689AC50020BE11 /* Red Velvet - Psycho.mp3 in Resources */,
+				0216F0DC296831630020BE11 /* Narwhal.mp3 in Resources */,
 				0269637A295C2C5A00194395 /* CircularStd-BookItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,10 +277,14 @@
 			files = (
 				02EE5EED295C7C5E008707B8 /* ProfileViewController.swift in Sources */,
 				0243B5142940954D002754D5 /* HomeViewController.swift in Sources */,
+				0216F0D3296827B20020BE11 /* BrowseTableViewCell.swift in Sources */,
 				02EE5EEB295C7C4A008707B8 /* PlaylistViewController.swift in Sources */,
+				02D86DAC296749FC000B20B8 /* Songs.swift in Sources */,
 				0243B5102940954D002754D5 /* AppDelegate.swift in Sources */,
 				02EE5EE9295C7C36008707B8 /* BrowseViewController.swift in Sources */,
+				0216F0E9296880490020BE11 /* MusicPlayerViewController.swift in Sources */,
 				0243B5122940954D002754D5 /* SceneDelegate.swift in Sources */,
+				02D86DE429682235000B20B8 /* Playlists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
