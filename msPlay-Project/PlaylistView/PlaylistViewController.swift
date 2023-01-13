@@ -11,6 +11,8 @@ class PlaylistViewController: UIViewController, UITableViewDelegate, UITableView
 
     @IBOutlet var tvPlaylist: UITableView!
     
+    var selectedPlaylist = Playlists(playlistTitle: "", playlistSongs: [], playlistCover: "")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -51,18 +53,18 @@ class PlaylistViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showPlaySect"{
-            let destination = segue.destination as! PlaylistSectionViewController
-            let pos = tvPlaylist.indexPathForSelectedRow?.row
-            destination.position = pos!
+        if segue.identifier == "playlistSect"{
+            let destination = segue.destination as? PlaylistSectionViewController
+            destination?.selectedPList = selectedPlaylist
         }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let cell = tableView.cellForRow(at: indexPath)
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let row = indexPath.section
-        performSegue(withIdentifier: "showPlaySect", sender: cell)
+        //-- Using Segue --//
+        selectedPlaylist = HomeViewController.playLists[indexPath.section]
+        self.performSegue(withIdentifier: "playlistSect", sender: selectedPlaylist)
+    
     }
 }

@@ -12,6 +12,7 @@ class PlaylistSectionViewController: UIViewController, UITableViewDelegate, UITa
     @IBOutlet var tbvPlaylistSect: UITableView!
     @IBOutlet var tvPlaylistTitle: UILabel!
     
+    var selectedPList = Playlists(playlistTitle: "", playlistSongs: [], playlistCover: "")
     public var position: Int = 0
 
     override func viewDidLoad() {
@@ -19,11 +20,11 @@ class PlaylistSectionViewController: UIViewController, UITableViewDelegate, UITa
         // Do any additional setup after loading the view.
         tbvPlaylistSect.delegate = self
         tbvPlaylistSect.dataSource = self
-        tvPlaylistTitle.text = HomeViewController.playLists[position].playlistTitle
+        tvPlaylistTitle.text = selectedPList.playlistTitle
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return HomeViewController.playLists[position].playlistSongs.count
+        return selectedPList.playlistSongs.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -33,10 +34,9 @@ class PlaylistSectionViewController: UIViewController, UITableViewDelegate, UITa
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tbvPlaylistSect.dequeueReusableCell(withIdentifier: "playSectCell") as! PlaylistSectionTableViewCell
         
-        let currPlaylist = HomeViewController.playLists[position]
-        cell.ivSongCover.image = UIImage(named: currPlaylist.playlistSongs[indexPath.section].songCover)
-        cell.tvSongTitle.text = currPlaylist.playlistSongs[indexPath.section].songTitle
-        cell.tvSongArtist.text = currPlaylist.playlistSongs[indexPath.section].songArtists
+        cell.ivSongCover.image = UIImage(named: selectedPList.playlistSongs[indexPath.section].songCover)
+        cell.tvSongTitle.text = selectedPList.playlistSongs[indexPath.section].songTitle
+        cell.tvSongArtist.text = selectedPList.playlistSongs[indexPath.section].songArtists
         
         cell.layer.cornerRadius = 15
         
@@ -60,10 +60,9 @@ class PlaylistSectionViewController: UIViewController, UITableViewDelegate, UITa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let pos = indexPath.section
+        HomeViewController.currPlay = selectedPList.playlistSongs[indexPath.section]
         
         let destination = storyboard?.instantiateViewController(withIdentifier: "mPlayer") as! MusicPlayerViewController
-        destination.position = pos
         present(destination, animated: true)
     }
     

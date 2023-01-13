@@ -54,10 +54,9 @@ class BrowseViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        let pos = indexPath.section
+        HomeViewController.currPlay = HomeViewController.songLists[indexPath.section]
         
         let destination = storyboard?.instantiateViewController(withIdentifier: "mPlayer") as! MusicPlayerViewController
-        destination.position = pos
         present(destination, animated: true)
     }
 }
