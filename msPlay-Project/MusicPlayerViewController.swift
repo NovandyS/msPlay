@@ -21,33 +21,55 @@ class MusicPlayerViewController: UIViewController, AVAudioPlayerDelegate {
     
 //    public var position: Int = 0
     
-    static var musicPlayer = AVAudioPlayer()
+    var player = AVAudioPlayer()
     let songCount = HomeViewController.songLists.count
     var currSong = HomeViewController.currPlay
     var repSong: Bool = false
     var shuffSong: Bool = false
     
-    var player = MusicPlayerViewController.musicPlayer
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-       playTheMusic()
-        
+        print("\(player.isPlaying)")
+    }
+    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        if animated{
+//            player.pause()
+//        }
+//    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        if player.isPlaying{
+//            ivSong.image = UIImage(named: currSong.songCover)
+//            tvSongTitle.text = currSong.songTitle
+//            tvSongArtist.text = currSong.songArtists
+//
+//            trackSlider.value = Float(player.currentTime)
+            
+//            print("\(player.isPlaying)")
+        }
+        else {
+            playTheMusic()
+        }
     }
     
     func playTheMusic(){
         ivSong.image = UIImage(named: currSong.songCover)
         tvSongTitle.text = currSong.songTitle
         tvSongArtist.text = currSong.songArtists
+        btnPlay.setImage(UIImage(systemName: "pause.fill"), for: .normal)
+        
+        player.delegate = self
         
         let songURL = Bundle.main.path(forResource: currSong.songTrack, ofType: "mp3")
         do {
-            try AVAudioSession.sharedInstance().setMode(.default)
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
             try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
 
             player = try AVAudioPlayer(contentsOf: URL(filePath: songURL!))
-            player.delegate = self
             HomeViewController.currPlay = currSong
             trackSlider.maximumValue = Float(player.duration)
             player.play()
@@ -73,6 +95,7 @@ class MusicPlayerViewController: UIViewController, AVAudioPlayerDelegate {
     
     @IBAction func playTapped(_ sender: Any) {
         if (player.isPlaying){
+//            print("\(player.isPlaying)")
             player.pause()
             btnPlay.setImage(UIImage(systemName: "play.fill"), for: .normal)
         }
