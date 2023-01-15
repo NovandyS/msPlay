@@ -14,6 +14,8 @@
 		0216F0DC296831630020BE11 /* Narwhal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0D7296831630020BE11 /* Narwhal.mp3 */; };
 		0216F0DD296831630020BE11 /* Oracle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0216F0D8296831630020BE11 /* Oracle.mp3 */; };
 		0216F0E9296880490020BE11 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216F0E8296880490020BE11 /* MusicPlayerViewController.swift */; };
+		0236970829741BBF00FF7A8B /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236970729741BBF00FF7A8B /* HomeCollectionViewCell.swift */; };
+		0236970A29741DF000FF7A8B /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0236970929741DF000FF7A8B /* HomeData.swift */; };
 		0243B5102940954D002754D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243B50F2940954D002754D5 /* AppDelegate.swift */; };
 		0243B5122940954D002754D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243B5112940954D002754D5 /* SceneDelegate.swift */; };
 		0243B5142940954D002754D5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0243B5132940954D002754D5 /* HomeViewController.swift */; };
@@ -44,6 +46,7 @@
 		02D86DDB2967FF57000B20B8 /* Bruno Mars - Grenade.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D86DC02967FF57000B20B8 /* Bruno Mars - Grenade.mp3 */; };
 		02D86DE02967FF57000B20B8 /* Sia - Chandelier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02D86DC52967FF57000B20B8 /* Sia - Chandelier.mp3 */; };
 		02D86DE429682235000B20B8 /* Playlists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D86DE329682235000B20B8 /* Playlists.swift */; };
+		02E9198B29728817003D7ECD /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E9198A29728817003D7ECD /* MusicHelper.swift */; };
 		02EE5EE9295C7C36008707B8 /* BrowseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE5EE8295C7C35008707B8 /* BrowseViewController.swift */; };
 		02EE5EEB295C7C4A008707B8 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE5EEA295C7C4A008707B8 /* PlaylistViewController.swift */; };
 		05B3890A296949DD00C7AC9C /* PlaylistSectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B38909296949DD00C7AC9C /* PlaylistSectionViewController.swift */; };
@@ -59,6 +62,8 @@
 		0216F0D7296831630020BE11 /* Narwhal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Narwhal.mp3; sourceTree = "<group>"; };
 		0216F0D8296831630020BE11 /* Oracle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Oracle.mp3; sourceTree = "<group>"; };
 		0216F0E8296880490020BE11 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		0236970729741BBF00FF7A8B /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		0236970929741DF000FF7A8B /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
 		0243B50C2940954D002754D5 /* msPlay-Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "msPlay-Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0243B50F2940954D002754D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0243B5112940954D002754D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +96,7 @@
 		02D86DC02967FF57000B20B8 /* Bruno Mars - Grenade.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bruno Mars - Grenade.mp3"; sourceTree = "<group>"; };
 		02D86DC52967FF57000B20B8 /* Sia - Chandelier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sia - Chandelier.mp3"; sourceTree = "<group>"; };
 		02D86DE329682235000B20B8 /* Playlists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlists.swift; sourceTree = "<group>"; };
+		02E9198A29728817003D7ECD /* MusicHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
 		02EE5EE8295C7C35008707B8 /* BrowseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseViewController.swift; sourceTree = "<group>"; };
 		02EE5EEA295C7C4A008707B8 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		05B38909296949DD00C7AC9C /* PlaylistSectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistSectionViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +137,26 @@
 			path = Songs;
 			sourceTree = "<group>";
 		};
+		023697052974196E00FF7A8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02D86DAB296749FC000B20B8 /* Songs.swift */,
+				02D86DE329682235000B20B8 /* Playlists.swift */,
+				0236970929741DF000FF7A8B /* HomeData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		023697062974197E00FF7A8B /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0216F0E8296880490020BE11 /* MusicPlayerViewController.swift */,
+				02E9198A29728817003D7ECD /* MusicHelper.swift */,
+				02A0EDF2296ECFE500F99E1A /* CurrentlyPlayingViewContainer.swift */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
 		0243B5032940954D002754D5 = {
 			isa = PBXGroup;
 			children = (
@@ -156,15 +182,13 @@
 				02A350FA296EB7CD00812398 /* HomeView */,
 				05BF1D9629693D08006A5D32 /* BrowseView */,
 				05BF1D9929693EB1006A5D32 /* PlaylistView */,
-				0216F0E8296880490020BE11 /* MusicPlayerViewController.swift */,
-				02D86DAB296749FC000B20B8 /* Songs.swift */,
-				02D86DE329682235000B20B8 /* Playlists.swift */,
+				023697062974197E00FF7A8B /* MusicPlayer */,
+				023697052974196E00FF7A8B /* Models */,
 				0243B5152940954D002754D5 /* Main.storyboard */,
 				0243B5182940954E002754D5 /* Assets.xcassets */,
 				0243B51A2940954E002754D5 /* LaunchScreen.storyboard */,
 				0243B51D2940954E002754D5 /* Info.plist */,
 				0269636F295C2BFE00194395 /* Resources */,
-				02A0EDF2296ECFE500F99E1A /* CurrentlyPlayingViewContainer.swift */,
 			);
 			path = "msPlay-Project";
 			sourceTree = "<group>";
@@ -191,6 +215,7 @@
 			children = (
 				0243B5132940954D002754D5 /* HomeViewController.swift */,
 				02A350F8296EB7C600812398 /* HomeTableViewCell.swift */,
+				0236970729741BBF00FF7A8B /* HomeCollectionViewCell.swift */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -311,12 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02E9198B29728817003D7ECD /* MusicHelper.swift in Sources */,
 				0243B5142940954D002754D5 /* HomeViewController.swift in Sources */,
 				05BF1D9829693EA6006A5D32 /* PlaylistTableViewCell.swift in Sources */,
 				02A350F9296EB7C600812398 /* HomeTableViewCell.swift in Sources */,
 				0216F0D3296827B20020BE11 /* BrowseTableViewCell.swift in Sources */,
+				0236970A29741DF000FF7A8B /* HomeData.swift in Sources */,
 				02A0EDF3296ECFE500F99E1A /* CurrentlyPlayingViewContainer.swift in Sources */,
 				02EE5EEB295C7C4A008707B8 /* PlaylistViewController.swift in Sources */,
+				0236970829741BBF00FF7A8B /* HomeCollectionViewCell.swift in Sources */,
 				02D86DAC296749FC000B20B8 /* Songs.swift in Sources */,
 				0243B5102940954D002754D5 /* AppDelegate.swift in Sources */,
 				02EE5EE9295C7C36008707B8 /* BrowseViewController.swift in Sources */,
